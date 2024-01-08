@@ -1,6 +1,6 @@
 import streamlit as st
 import math
-
+st.set_page_config("Get Volume of Sphere", layout='centered', page_icon='📖',initial_sidebar_state='auto')
 def getVolumeOfSphere(r, d):
     Pi = 3.14159
     V = 0.0
